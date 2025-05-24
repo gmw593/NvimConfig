@@ -23,9 +23,10 @@ vim.g.maplocalleader = "\\"
 
 local opts ={}
 
+-- require keymaps
+require('keymaps')
 -- Setup lazy.nvim
 require("lazy").setup("plugins", opts)
 vim.o.mouse = ''
-
 
 
