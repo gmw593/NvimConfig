@@ -9,8 +9,7 @@ return {
       -- Optionally specify servers to auto-install
       ensure_installed = {
         "pyright",   -- Python
-        "tsserver",  -- TypeScript/JavaScript
-        "lua_ls",    -- Lua
+        "lua_ls"    -- Lua
         -- Add other servers you commonly use
       },
     })
